@@ -4,9 +4,9 @@ const image=document.getElementById("cd-image");
 const pause_button=document.getElementById("play-pause");
 var songs=[
     ["door.mp3","Spring Cleaning - Deltarune Chapter 2 OST: 02 - Girl Next Door","cover.png"],
-    ["holiday.mp3", "Deltarune Chapter 2 OST: 19 - Holiday Studio ","cover.png"],
-    ["lost.mp3", "Deltarune Chapter 2 OST: 30 - Lost Girl","cover.png"],
-    ["bat.mp3", "Deltarune Chapter 3+4 OST: 20 - Raise Up Your Bat","cover.png"],
+    ["distance.mp3", "Deltarune Chapter 3+4 OST: 46 - The distance between two","cover.png"],
+    ["findher.mp3", "Deltarune OST: ?? - Find Her","cover.png"],
+    ["raisebat.mp3", "Deltarune Chapter 3+4 OST: 20 - Raise Up Your Bat","cover.png"],
     ["festival.mp3", "Deltarune Chapter 5 OST: 5 - Festival","cover.png"]
 ];
 var index=0;
