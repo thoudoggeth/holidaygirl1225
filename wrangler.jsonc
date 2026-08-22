@@ -2,9 +2,10 @@
 {
   "name": "doggosblog",
   "compatibility_date": "2026-08-22",
+  "main": "./src/index.js",
   "assets": {
-    "directory": "./"
-  },
+    "directory": "./doggo's blog files"
+  }
 
   "observability": {
     "enabled": true
