@@ -5,7 +5,6 @@
     "directory": "./doggo's blog_files",
     "binding": "ASSETS"
   },
-  "main": "index.js",
   "routes": [
     {
       "pattern": "*.thydoggeth.xyz/*",
