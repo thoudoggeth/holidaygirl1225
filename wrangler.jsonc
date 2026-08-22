@@ -4,4 +4,7 @@
   "assets": {
     "directory": "./"
   }
+  "observability": {
+    "enabled": false
+  }
 }
