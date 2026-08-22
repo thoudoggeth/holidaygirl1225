@@ -3,6 +3,7 @@
   "compatibility_date": "2026-08-22",
   "assets": {
     "directory": "./doggo's blog_files",
+    "not_found_handling:" = "404",
   },
 
   "observability": {
