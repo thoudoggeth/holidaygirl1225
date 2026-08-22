@@ -1,29 +1,18 @@
-export default {
-  async fetch(request, env) {
-    const url = new URL(request.url);
-
-    // Subdomains that should serve your blog normally
-    const knownSubdomains = ["www", "blog"];
-
-    // Extract the first label of the hostname
-    const subdomain = url.hostname.split(".")[0];
-
-    // If it's a known subdomain or the root domain, serve static assets
-    if (knownSubdomains.includes(subdomain) || url.hostname === "yourdomain.com") {
-      return env.ASSETS.fetch(request);
-    }
-
-    // Anything else: return your custom 404
-    return new Response(NOT_FOUND_HTML, {
-      status: 404,
-      headers: { "Content-Type": "text/html; charset=utf-8" },
-    });
+{
+  "name": "doggosblog",
+  "compatibility_date": "2026-08-22",
+  "assets": {
+    "directory": "./doggo's blog_files",
+    "binding": "ASSETS"
   },
-};
-
-const NOT_FOUND_HTML = `<!DOCTYPE html>
-<html>
-<head>
-  <title>404 - Not Found</title>
-  <style>
-    body { font-family: sans-serif; text-align: center
+  "main": "./src/index.js",
+  "routes": [
+    {
+      "pattern": "*.thydoggeth.xyz/*",
+      "zone_name": "thydoggeth.xyz"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
