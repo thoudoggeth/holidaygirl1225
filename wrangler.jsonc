@@ -5,7 +5,7 @@
   "main": "./src/index.js",
   "assets": {
     "directory": "./doggo's blog files"
-  }
+  },
 
   "observability": {
     "enabled": true
