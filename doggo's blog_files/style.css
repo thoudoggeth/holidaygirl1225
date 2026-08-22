@@ -50,15 +50,15 @@ input {
 
 
   /* Misc */
-  --cursor-main: url(./assets/cursor.png), auto;
-  --cursor-pointer: url(./assets/pointer.png), auto;
+  --cursor-main: url(cursor.png), auto;
+  --cursor-pointer: url(pointer.png), auto;
 }
 
 
 
 
 body {
-        background-image: url("https://iili.io/CZYMk5x.png");
+        background-image: url("background.png");
 	background-repeat: repeat-x repeat-y;
   font-family: var(--primary-font);
   color: darkgreen;
