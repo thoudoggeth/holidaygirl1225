@@ -3,11 +3,13 @@ const title=document.getElementById("title");
 const image=document.getElementById("cd-image");
 const pause_button=document.getElementById("play-pause");
 var songs=[
-    ["door.mp3","Spring Cleaning - Deltarune Chapter 2 OST: 02 - Girl Next Door","cover.png"],
+    ["door.mp3","Deltarune Chapter 2 OST: 02 - Girl Next Door","cover.png"],
+    ["smartrace.mp3", "Deltarune Chapter 2 OST: 15 - Smart Race","cover.png"],
     ["distance.mp3", "Deltarune Chapter 3+4 OST: 46 - The distance between two","cover.png"],
-    ["findher.mp3", "Deltarune OST: ?? - Find Her","cover.png"],
+    ["running.mp3", "Deltarune Chapter 5 OST: 33 - Running Sky","cover.png"],
+    ["thrill.mp3", "FPE:S OST - Thrill Of The Hunt","cover.png"],
     ["raisebat.mp3", "Deltarune Chapter 3+4 OST: 20 - Raise Up Your Bat","cover.png"],
-    ["festival.mp3", "Deltarune Chapter 5 OST: 5 - Festival","cover.png"]
+    ["astro.mp3","Astronaut - 13","cover.png"]
 ];
 var index=0;
 var count=songs.length;
