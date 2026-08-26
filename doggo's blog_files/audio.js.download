@@ -7,9 +7,9 @@ var songs=[
     ["smartrace.mp3", "Deltarune Chapter 2 OST: 15 - Smart Race","cover.png"],
     ["distance.mp3", "Deltarune Chapter 3+4 OST: 46 - The distance between two","cover.png"],
     ["running.mp3", "Deltarune Chapter 5 OST: 33 - Running Sky","cover.png"],
-    ["thrill.mp3", "FPE:S OST - Thrill Of The Hunt","cover.png"],
+    ["thrill.mp3", "FPE:S OST - Thrill Of The Hunt","FPES.png"],
     ["raisebat.mp3", "Deltarune Chapter 3+4 OST: 20 - Raise Up Your Bat","cover.png"],
-    ["astro.mp3","Astronaut - 13","cover.png"]
+    ["astro.mp3","Astronaut - 13","Astronaut.png"]
 ];
 var index=0;
 var count=songs.length;
